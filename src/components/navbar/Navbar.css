@@ -1,0 +1,31 @@
+.navbar {
+  background-color: #17b37f;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  height: 45px;
+  padding-top: 12px;
+}
+.end {
+  padding-right: 30px;
+}
+
+.profile {
+  border: none;
+  background-color: #17b37f;
+  color: white;
+  outline: 0;
+  font-size: medium;
+}
+.signout {
+  background-color: #17b37f;
+  border-style: groove;
+  font-size: medium;
+}
+.logo {
+  background-color: #17b37f;
+  font-size: x-large;
+  border: none;
+  outline: 0;
+  color:#713142;
+}

@@ -1,0 +1,38 @@
+.list {
+  height: auto;
+  width: 30%;
+  margin-top: 25px;
+  margin-right: 25px;
+  box-shadow: 2px 5px 3px 5px grey;
+}
+.title {
+  border: 2px solid gray;
+  width: 120px;
+  height: 50px;
+  text-align: center;
+}
+
+.img_user_list img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+}
+.addPosts {
+  /* display: flex;
+  justify-content: space-between; */
+}
+.userList {
+  display: flex;
+  justify-content: space-between;
+}
+.trash {
+  outline: 0;
+  border: none;
+  background-color: white;
+  color: #17b37f;
+}
+
+.trash:hover{
+color: red;
+  
+}

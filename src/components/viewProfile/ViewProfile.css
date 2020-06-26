@@ -1,0 +1,55 @@
+.container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  background-color: white;
+  margin-top: 25px;
+  padding: 10px;
+  box-shadow: 3px 7px 5px 3px #888888;
+}
+
+.text {
+  text-align: center;
+}
+.data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-chips img {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+
+.card-header {
+  text-align: center;
+}
+.button {
+  padding: 10px 40px;
+  border: none;
+  font-size: 17px;
+  outline: 0;
+}
+.block {
+  display: inline-block;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 20px;
+}
+
+.button:hover {
+  border-bottom: 3px solid red;
+  color: red;
+}
+
+.users_list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin: 12px;
+}
